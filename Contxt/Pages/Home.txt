@@ -1,0 +1,11 @@
+Welcome to Contxt!
+
+This is a page of wiki.
+
+Create links between notes: [[HowContxtWorks]].
+
+Features
+	
+	* Styles in View - Preview Styles menu
+	* TextMate style Go to Page (Ctrl + Command + P)
+	* Image Browser, browse all image files in wiki

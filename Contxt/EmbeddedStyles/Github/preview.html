@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'>
+	<link rel="stylesheet" type="text/css" media="screen"  href="style.css"/> 
+	<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>  
+	<script type="text/javascript">
+		function preview(previewHTML) {
+			$("#preview").html(previewHTML);
+		}		
+        
+        function parseAndPreview(textile) {
+			var parsedHTML = convert(textile);
+			$("#preview").html(parsedHTML);
+			return parsedHTML;
+		}
+	</script>
+</head>
+	
+<body style="padding:3 3 0 3">
+	<div id="preview" style="word-wrap:break-word;"></div>
+</body>
+</html>
