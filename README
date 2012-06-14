@@ -1,0 +1,7 @@
+Contxt, a desktop wiki application using Markdown syntax for Mac OS X.
+
+* Auto setup wiki directory in ~/Library/Application Support/Contxt
+* Support syntax [[ ]] for wiki page.
+* Preview styles
+* TextMate style Go to Page
+* Images Browser
